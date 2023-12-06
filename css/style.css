@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+body {  
+
+    display: flex;
+    flex-direction: column;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: rgb(16, 16, 71);
+    background-color: rgba(206, 210, 241, 0.74);
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+
+}
+
+.formulario {
+    display: flex;
+    width: 100%;
+    height: 30rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+.formulario form fieldset {
+
+    display: flex;
+    flex-direction: column;
+    justify-self: flex-start;
+    justify-content: left;
+    align-items: start;
+    width: 100%;
+    height: 30rem;
+
+}
+.formulario form fieldset label {
+    width: 50%;
+    height: 4 rem;
+}

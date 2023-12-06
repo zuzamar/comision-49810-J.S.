@@ -4,9 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Primera entrega Javascript</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+
 </head>
 <body>
+
 <h1> Calculadora de Ganancia de mercadería</h1>
+
+<div class="formulario">
+    <form action="">
+        <fieldset>
+            <legend>Calculadora de ganancias</legend>
+
+            <label for="articulo">Artículo:</label>
+            <input type="text" id="Articulo" placeholder="ingresa el nombre del artículo" required />
+
+            <label for="costo">Costo:</label>
+            <input type="text" id="Costo" placeholder="ingresa el costo del artículo" required />
+
+            <label for="Precio de venta"> Precio de venta:</label>
+            <input type="text" id="Precio de venta" placeholder="ingresa el precio de venta" required />
+
+            <label for="Texto">Cantidad de articulos vendidos:</label>
+            <input type="number" id="Cantidad" placeholder=" ingresa la cantidad de articulos vendidos" />
+
+            <input type="submit" value="Calcular">
+        </fieldset>
+    </form>
 
     <script src="main.js"></script>
 </body>
