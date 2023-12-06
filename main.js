@@ -14,7 +14,7 @@ function GananciaTotal (precioCosto, precioVenta, ventas) {
     alert ( (precioVenta - precioCosto) * ventas);
 }
 
-// ciclo while
+// ciclo while y conicional
 
 let ingresaOtro = true
 
